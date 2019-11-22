@@ -21,7 +21,7 @@
 .price-card__description {
   margin: 0;
   margin-top: 39px;
-  padding: 0 26px;
+  width: 327.49px;
   line-height: 18px;
   text-align: center;
   display: inline-block;
@@ -43,22 +43,21 @@
   background-color: #2a3438;
 }
 
-.price-card-wrap-for-title, .price-card-wrap-for-button {
+.price-card-wrap-for-title, .price-card-wrap-for-button, .price-card-wrap-for-description {
   text-align: center;
 }
-.price-card-wrap-for-title .price-card__title, .price-card-wrap-for-button .price-card__title {
+.price-card-wrap-for-title .price-card__title, .price-card-wrap-for-button .price-card__title, .price-card-wrap-for-description .price-card__title {
   display: inline-block;
   font-weight: 700;
   font-size: 35px;
-  line-height: 43px;
+  line-height: 30px;
   text-align: center;
   margin: 0;
 }
-.price-card-wrap-for-title .price-card__subtitle, .price-card-wrap-for-button .price-card__subtitle {
+.price-card-wrap-for-title .price-card__title .price-card__subtitle, .price-card-wrap-for-button .price-card__title .price-card__subtitle, .price-card-wrap-for-description .price-card__title .price-card__subtitle {
   font-weight: normal;
   text-align: center;
   font-size: 20px;
-  line-height: 20px;
   margin: 0;
   font-weight: normal;
 }
@@ -75,7 +74,6 @@
   outline: none;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.7px;
 }
 
 .basic .price-card__price {
