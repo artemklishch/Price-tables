@@ -79,9 +79,6 @@
   .price-card__order-btn {
     background-color: $color-green;
   }
-  .price-card__title {
-    width: 100.14px;
-  }
 }
 .business {
   .price-card__price {
@@ -107,9 +104,6 @@
     top: 30px;
     transform: rotate(45deg);
   }
-  .price-card__title {
-    width: 163.75px;
-  }
 }
 .webshop {
   .price-card__price {
@@ -120,8 +114,5 @@
   }
   .price-card__order-btn {
     background-color: $color-orange;
-  }
-  .price-card__title {
-    width: 176px;
   }
 }
