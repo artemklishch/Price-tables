@@ -33,6 +33,8 @@ body {
   font-size: 20px;
   margin: 0;
   font-weight: normal;
+  padding-top: 5px;
+  opacity: 0.9;
 }
 .price-card__price {
   padding: 18px 0;
@@ -49,6 +51,7 @@ body {
   text-align: center;
   width: 327.49px;
   height: 36px;
+  opacity: 0.9;
 }
 .price-card__options-list {
   margin: 0;
@@ -73,12 +76,13 @@ body {
   height: 40px;
   border-radius: 20px;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 40px;
   text-align: center;
   border: none;
   outline: none;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .basic .price-card__price {
