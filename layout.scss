@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
     height: 68px;
     display: flex;
-    padding-top: 4px;
+    padding-top: 3px;
     padding-right: 2px;
     flex-direction: column;
     justify-content: flex-end;
@@ -48,10 +48,10 @@ body {
   }
   &__description {
     margin: 39px auto 0 auto;
-    line-height: 15px;
+    line-height: 18px;
     text-align: center;
     width: 327.49px;
-    height: 35px;
+    height: 36px;
     opacity: 0.8;
   }
   &__options-list {
@@ -75,7 +75,7 @@ body {
     margin: 37px auto 0 auto;
     //padding: 12px 26.74px 12px 27.98px;
      width: 154.63px;
-    height: 39px;
+    height: 39.5px;
     border-radius: 20px;
     font-size: 14px;
     line-height: 40px;
