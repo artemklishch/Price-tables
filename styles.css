@@ -23,6 +23,10 @@ body {
   line-height: 30px;
   text-align: center;
   margin: 0 auto;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .price-card__title__subtitle {
   text-align: center;
@@ -44,6 +48,7 @@ body {
   line-height: 18px;
   text-align: center;
   width: 327.49px;
+  height: 36px;
 }
 .price-card__options-list {
   margin: 0;
@@ -64,7 +69,8 @@ body {
 .price-card__order-btn {
   display: block;
   margin: 37px auto 0 auto;
-  padding: 12px 26.74px 12px 27.98px;
+  width: 154.63px;
+  height: 40px;
   border-radius: 20px;
   font-size: 14px;
   line-height: 17px;
