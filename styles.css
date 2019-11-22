@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   height: 68px;
   display: flex;
-  padding-top: 2px;
+  padding-top: 4px;
   padding-right: 2px;
   flex-direction: column;
   justify-content: flex-end;
@@ -50,10 +50,10 @@ body {
 }
 .price-card__description {
   margin: 39px auto 0 auto;
-  line-height: 18px;
+  line-height: 15px;
   text-align: center;
   width: 327.49px;
-  height: 37px;
+  height: 35px;
   opacity: 0.8;
 }
 .price-card__options-list {
