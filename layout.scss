@@ -20,7 +20,7 @@
   &__description {
     margin: 0;
     margin-top: 39px;
-    width: 327.49px;
+    width: 327px;
     line-height: 18px;
     text-align: center;
     display: inline-block;
@@ -34,7 +34,7 @@
       font-weight: 300;
       background-position: left 22.25px center;
       background-repeat: no-repeat;
-      padding: 16px 21.33px 16px 58.66px;
+      padding: 16px 21px 16px 58.66px;
       line-height: 18px;
     }
     &__item:nth-child(odd) {
@@ -48,7 +48,7 @@
     display: inline-block;
     font-weight: 700;
     font-size: 35px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
     margin: 0;
     .price-card__subtitle {
@@ -63,10 +63,11 @@
 .price-card__order-btn {
   display: inline-block;
   margin: 37px auto 0 auto;
-  padding: 12px 26.74px 12px 27.98px;
+  padding: 12px 26px 12px 27px;
   border-radius: 20px;
   font-size: 14px;
   line-height: 17px;
+  width: 154px;
   text-align: center;
   border: none;
   outline: none;
