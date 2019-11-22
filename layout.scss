@@ -95,7 +95,6 @@
     background-color: $color-red;
     font-weight: bold;
     font-size: 14px;
-    line-height: 17px;
     width: 147.8px;
     height: 25.01px;
     text-align: center;
@@ -103,6 +102,7 @@
     right: -30px;
     top: 30px;
     transform: rotate(45deg);
+    text-transform: uppercase;
   }
 }
 .webshop {
