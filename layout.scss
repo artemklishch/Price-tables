@@ -9,17 +9,18 @@
     margin-right: 0;
   }
   &__title {
+    display: inline-block;
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     text-align: center;
-    margin: 0 auto;
-  }
-  &__subtitle {
-    text-align: center;
-    font-size: 20px;
-    margin: 0;
-    font-weight: normal;
+    &__subtitle {
+      font-weight: normal;
+      text-align: center;
+      font-size: 20px;
+      margin: 0;
+      font-weight: normal;
+    }
   }
   &__price {
     padding: 18px 0;
@@ -36,6 +37,7 @@
     padding: 0 26px;
     line-height: 18px;
     text-align: center;
+    display: inline-block;
   }
   &__options-list {
     margin: 0;
@@ -53,22 +55,25 @@
       background-color: $color-very-darkgrey;
     }
   }
-  &__order-btn {
-    display: block;
-    margin: 37px auto 0 auto;
-    padding: 12px 26.74px 12px 27.98px;
-    border-radius: 20px;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    border: none;
-    outline: none;
-    color: $color-white;
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-  }
 }
-
+.price-card-wrap-for-title, .price-card-wrap-for-button {
+  display: flex;
+  justify-content: center;
+}
+.price-card__order-btn {
+  display: inline-block;
+  margin: 37px auto 0 auto;
+  padding: 12px 26.74px 12px 27.98px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: $color-white;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
 .basic {
   .price-card__price {
     background-color: $color-green;
