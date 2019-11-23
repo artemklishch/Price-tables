@@ -1,6 +1,6 @@
 .price-card {
   width: 380px;
-  padding: 29px 0 42px 0;
+  padding: 31px 0 42px 0;
   background-color: #334247;
   margin-right: 15px;
   overflow: hidden;
@@ -42,15 +42,15 @@
 }
 .price-card__options-list {
   margin: 0;
-  margin-top: 42px;
+  margin-top: 41px;
   padding: 0;
   list-style-type: none;
 }
 .price-card__options-list__item {
   font-weight: 300;
-  background-position: left 22.25px center;
+  background-position: left 22px top 19px;
   background-repeat: no-repeat;
-  padding: 16px 21px 16px 58.66px;
+  padding: 16px 21px 16px 58px;
   line-height: 18px;
 }
 .price-card__options-list__item:nth-child(odd) {
