@@ -48,7 +48,7 @@
 }
 .price-card__options-list__item {
   font-weight: 300;
-  background-position: left 22px top 17;
+  background-position: left 22px center;
   background-repeat: no-repeat;
   padding: 16px 21px 16px 58px;
   line-height: 18px;
