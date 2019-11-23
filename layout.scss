@@ -11,7 +11,7 @@
   &__title{
     font-weight: bold;
     font-size: 25px;
-    line-height: 33px;
+    line-height: 43px;
     display: inline-block;
    h2{
      margin: 0;
@@ -19,6 +19,8 @@
    span{
      font-weight: normal;
      font-size: 21px;
+     line-height: 33px;
+     opacity: 0.9;
    }
   }
   &__price {
