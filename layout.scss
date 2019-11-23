@@ -8,6 +8,19 @@
   &:last-child {
     margin-right: 0;
   }
+  &__title{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+   h2{
+     margin: 0;
+   }
+   span{
+     font-weight: normal;
+     font-size: 30px;
+   }
+  }
   &__price {
     padding: 18px 0;
     font-weight: 700;
@@ -44,24 +57,8 @@
     }
   }
 }
-.price-card-wrap-for-title, .price-card-wrap-for-button, .price-card-wrap-for-description {
+.price-card-wrap-for-description, .price-card-wrap-for-button{
   text-align: center;
-  .price-card__title {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 29px;
-    padding-top: 5px;
-    text-align: center;
-    margin: 0;
-    .price-card__subtitle {
-      font-weight: normal;
-      text-align: center;
-      font-size: 20px;
-      margin: 0;
-      font-weight: normal;
-    }
-  }
 }
 .price-card__order-btn {
   display: inline-block;
