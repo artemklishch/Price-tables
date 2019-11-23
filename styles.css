@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 35px;
   line-height: 43px;
-  text-align: center;
+  display: inline-block;
 }
 .price-card__title h2 {
   margin: 0;
@@ -27,7 +27,6 @@
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
-  text-align: center;
   margin: 0;
   margin-top: 36px;
 }
@@ -37,7 +36,6 @@
   width: 328px;
   padding: 0.2px 5px 0 0.2px;
   line-height: 18px;
-  text-align: center;
   display: inline-block;
   opacity: 0.8;
 }
@@ -56,6 +54,10 @@
 }
 .price-card__options-list__item:nth-child(odd) {
   background-color: #2a3438;
+}
+
+.top-wrap {
+  text-align: center;
 }
 
 .price-card-wrap-for-description, .price-card-wrap-for-button {
