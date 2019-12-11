@@ -2,17 +2,17 @@
 @import "layout.scss";
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 html {
-  font-family: $text-font-family;
-  font-size: 15px;
-  color: $color-white;
+    font-family: $text-font-family;
+    font-size: 15px;
+    color: $color-white;
 }
 body {
-  background-color: $color-black;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: $color-black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
